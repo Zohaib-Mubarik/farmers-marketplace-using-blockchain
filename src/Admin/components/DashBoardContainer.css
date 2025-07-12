@@ -1,0 +1,9 @@
+
+ .dashboard-container {
+display: flex;
+justify-content: flex-start; /* Aligns items to the left */
+gap: 20px; /* Space between boxes */
+margin-top: 20px;
+flex-wrap: wrap; /* Ensures responsiveness */
+ }
+

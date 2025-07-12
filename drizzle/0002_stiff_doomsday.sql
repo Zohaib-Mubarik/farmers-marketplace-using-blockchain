@@ -1,0 +1,1 @@
+ALTER TABLE "contactMessages" ADD COLUMN "userImageUrl" varchar;

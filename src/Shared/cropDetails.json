@@ -1,0 +1,46 @@
+{
+  "cropDetails": [
+    {
+      "label": "Listing Title",
+      "name": "listingTitle",
+      "fieldType": "text",
+      "required": true,
+      "column": 2,
+      "icon": "FaClipboardList"
+    },
+    {
+      "label": "Original Price",
+      "name": "originalPrice",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaDollarSign",
+      "readonly": true
+    },
+    {
+      "label": "Category",
+      "name": "category",
+      "fieldType": "dropdown",
+      "options": ["Wheat", "Corn", "Potato", "Onion", "Tomato", "Peanuts"],
+      "required": true,
+      "column": 1,
+      "icon": "FaJarWheat"
+    },
+    {
+      "label": "Listing Description",
+      "name": "listingDescription",
+      "fieldType": "textarea",
+      "required": true,
+      "column": 2,
+      "icon": "FaFileAlt"
+    }
+  ],
+  "categoryPriceMap": {
+    "Wheat": "3000",
+    "Corn": "4000",
+    "Potato": "3500",
+    "Onion": "2500",
+    "Tomato": "4500",
+    "Peanuts": "5000"
+  }
+}
